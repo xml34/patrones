@@ -1,0 +1,18 @@
+este archivo contiene 5 clases
+	-SerVivo (abstrac)
+	-Animal  (abstrac)
+	-Planta
+	-AnimalHervivoro
+	-AnimalCarnivoro
+
+la abstraccion, como su nombre lo indica sirven para abstraer caracteristicas de los objetos, estas clases se encargan
+de poseer los metodos compartidos para luego ser implementados por clases que serán instacciadas. 
+su objetivo es ahorar lineas de código en la compilación, por el ejemplo, si las clases A.Hervivoro y A.Carnivoro no implementaran el método abstraido y en ves de eso cada uno lo creara esto crearia una duplicacion de codigo. 
+
+													SerVivo (abs)
+											    /			 \
+											   /			  \
+										  Planta			    Animal (abs)
+															   /       \
+															  /			\
+												AnimalCarnivoro  		AnimalHervivoro	
