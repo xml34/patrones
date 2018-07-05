@@ -1,7 +1,7 @@
 public class AnimalHervivoro extends Animal{
 
 	public AnimalHervivoro(){
-		vivo=true;
+		printVivo("Herviv");
 	}
 	
 	@Override

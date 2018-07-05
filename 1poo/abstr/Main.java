@@ -4,6 +4,8 @@ public class Main{
 		AnimalCarnivoro carnivoro = new AnimalCarnivoro();
 		AnimalHervivoro herviviro = new AnimalHervivoro();
 		//las clases SerVivo y Animal no pueden ser instacciadas
+		
+		System.out.println("");
 
 		System.out.println("Planta");
 		planta.alimentarse();

@@ -1,7 +1,7 @@
 public class Planta extends SerVivo {
 
 	public Planta(){
-		vivo=true;
+		printVivo("Planta");
 	}
 
 	@Override

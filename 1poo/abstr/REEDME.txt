@@ -15,4 +15,8 @@ su objetivo es ahorar lineas de código en la compilación, por el ejemplo, si l
 										  Planta			    Animal (abs)
 															   /       \
 															  /			\
-												AnimalCarnivoro  		AnimalHervivoro	
+												AnimalCarnivoro  		AnimalHervivoro
+
+clase abstracta: no puede ser instanciada
+
+metodo abstracto: es un met. que no contiene implementacion

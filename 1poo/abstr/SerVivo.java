@@ -1,4 +1,7 @@
 public abstract class SerVivo {
 	public boolean vivo;
-	public abstract void alimentarse();
+
+	public SerVivo(){vivo=true;}   //Const
+	public abstract void alimentarse();  //
+	public void printVivo(String w){System.out.println(w+" is alive");}
 }

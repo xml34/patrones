@@ -1,0 +1,1 @@
+objetivo: crear opjetos de la misma naturaleza en tiempo de ejecución,
