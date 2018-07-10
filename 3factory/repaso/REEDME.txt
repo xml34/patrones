@@ -1,0 +1,21 @@
+interfaces: ese tipo de clases se pueden ver con un contrato, ella establece unos metods,
+			si alguna clase desea implementarla debe someterse a implementarlos y a
+			sus variables static final
+
+	-los metodos deben ser implementados osea definidos por c/u de sus hijos 
+	-los atrubutos no cambian en quie los implementa
+
+			para esto ver ejemplo: interfazVSClAbstracta/interfaz
+
+abstractas: estas clases buscan polimorfizmo como en el caso del patron factory,
+			se crea una variable tipo padre con el fin de ser unstanciada como 
+			cualquiera de sus hijos en tiempo de ejecucion
+
+	-Atrigbutos cambian en sus hijos
+	-hay metodos que no cambian en sus hijos, son metodos ya implementados por el padre
+	 o más bien metodos heredados a sus hijos (metodos normales).
+	-hoy metodos que si cambian en sus hijos, son metodos que ellos mismos implementan
+	 (metodos abstrac). 
+
+
+

@@ -1,0 +1,6 @@
+Objetivo: el objetivo de builder nos dice que el objetivo es permitir que el codigo 
+			cliente controlo el proceso de construccion de manera que el mismo 
+			proceso de contruccion pueda crear difirentes reprecentaciones, en 
+			este caso el mismo proceso de contruccion crea un robot que produce 
+			hamburguesas y uno que produce hotdogs
+			

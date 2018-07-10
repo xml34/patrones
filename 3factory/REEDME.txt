@@ -1,1 +1,23 @@
-objetivo: crear opjetos de la misma naturaleza en tiempo de ejecución,
+yo deseo crear un objeto conexion para eso le pido a fabrica que lo cree segun mis nesecidades y me devuelve 
+dicho objeto y luego lo guardo en una instanciacion generica del objeto ejem:
+
+contabilidad crea una fabrica, ya indicandole el tipo de conexion que desea que cree 
+fabrica segun el tipo, crea una de los 4 tipos de conexiones (sqlS, msql, postgress, orecle)
+contabilidad crea una variable tipo conexion, la cual sera instaciada como el tiepo de conexion
+que fabrica preparo de esta forma Conexion conexion = miFabrica.creaConexion();
+
+objetivo: crear opjetos de la misma naturaleza en tiempo de ejecución, como se puede ver en el ejemplo
+el usuario puede elegir el tipo de BD en tiempo de ejecucion, sin este patron se cuadruplicarian 
+el numero de clases dependientes de cada coneccion
+
+las clases que contiene son 
+                                   
+    CONTABILIDAD ---------> Fabrica---⦣ ________
+                 ------------------->  |Conexion| ------▷  oracle
+                                       |_(abst)_|
+                                        /  !   \
+                                       /   !    \
+                                      ◺    !     ◿
+                                 sqlS      ▽      postgress
+                                        mysql
+

@@ -1,0 +1,16 @@
+abstract factury: es un fabrica de fabricas, esto tiene el fin de dejar a la fabrica abstracta poder
+tener subclases que se encargen del trabajo en concreto, esta clase se le deja la impl de los metodos
+a las clases hijas
+
+
+           PAGOS ---------> FabricaAbs(abs) -------> FabricaHeredada
+                \                       ________ 
+                 '------------------>  |Conexion| ------▷  oracle
+                                       |_(abst)_|
+                                        /  !   \
+                                       /   !    \
+                                      ◺    !     ◿
+                                 sqlS      ▽      postgress
+                                        mysql
+
+
