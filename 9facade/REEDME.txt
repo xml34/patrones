@@ -1,0 +1,5 @@
+Objetivo: es ocultar todos los procesos que el cliente no nesecita ver para ejecutar sus
+obciones disponibles, es como crear un una interfaz intuitiva al cliente.
+ejemplo: un cliente no sabe que pasa detras de precionar el acelerador de un carro, o 
+mover la palanca de cambios
+

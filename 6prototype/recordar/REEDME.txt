@@ -1,0 +1,3 @@
+en esta clase se observa como no copiar un objeto, (ya que no se copia el objeto sino 
+que se pasa una referencia) es decir que al compiarlo de esta forma cuando alteras
+el objeto nuevo copiado se altera el original

@@ -1,0 +1,4 @@
+el patron de diseño adaptador sirve cuendo deseas utilizar un clase pero no completamente,
+ya sea por que solo te sriver ciertos metodos, por que solo conocer unos cuantos metodos
+y no puedes ver el resto,etc. para esto creamos una clase adaptador, la cual se encarga
+de exponer lo metodos que usas y ademas puedes agregar unos nuevos

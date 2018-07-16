@@ -1,0 +1,8 @@
+Objetivo: Proporcionar un sustituto  o marcador de posicion a otro objeto, para controlar el acceso a
+dicho objeto
+en este caso lo que hacemos es que:
+1)hay un objeto remoto con ciertos metodos disponibles y un usuario quiere acceder a él,
+para esto creamos una clase proxy que se encarge de exponer los metodos a el cliente
+y gestionar los permisos del remoto, el fin es simular la interaccion con el remoto, el cliente
+creerá que esta interactuando con el servidor cuando en realidad lo esta haciendo con el 
+local

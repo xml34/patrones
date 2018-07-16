@@ -1,0 +1,7 @@
+Objetivo:	permitir al cliente realizar acciones temporales con "copias" de los
+			objetos sin afectar el objeto original.
+			para esto se debe clonar el objeto en tiempo de ejecución.
+
+			RECORDAR: la diferencia en java de estas 2 igualaciones 
+					  *Objeto ob = new Objeto();
+					  *Objeto ob = miObjeto;
